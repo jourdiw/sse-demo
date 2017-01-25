@@ -1,2 +1,17 @@
 * Exemple de serveur side event SSE avec node.js
 
+#+BEGIN_SRC shell
+npm install
+node server.js
+#+END_SRC
+
+Ouvrez un ou plusieurs onglets sur un ou plusieurs navigateurs, avec
+[[http://localhost:3000]]
+
+Dans un terminal, envoyez un message au serveur avec
+
+#+BEGIN_SRC shell
+curl -H "Content-Type: application/json"\
+     -X POST\
+     -d '{"test": "broadcast to all clients !"}' http://localhost:3000/message
+#+END_SRC

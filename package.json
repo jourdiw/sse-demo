@@ -1,0 +1,22 @@
+{
+  "name": "fullstack_sse",
+  "version": "1.0.0",
+  "description": "sse example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.enseeiht.fr:fullstack/sse.git"
+  },
+  "keywords": [
+    "sse"
+  ],
+  "author": "Pierre Gambarotto <pierre.gambarotto@enseeiht.fr>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0"
+  }
+}

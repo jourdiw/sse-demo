@@ -1,0 +1,2 @@
+* Exemple de serveur side event SSE avec node.js
+
